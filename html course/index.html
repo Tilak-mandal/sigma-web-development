@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms- lets learn it</title>
+</head>
+
+<body>
+    <h1>form to apply for teaching assistant </h1>
+    <form action="post">
+        <!--input type text-->
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <!--input type radio button-->
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <!--input type checkbox-->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe to newsletter</label>
+        </div>
+        <!--input type text area-->
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+        </div>
+        <!--input type select-->
+        <div>
+            <label for="degree">degree of certification</label>
+            <br>
+            <select name="degree" id="degree">
+                <option value="+2">+2</option>
+                <option value="bachelor">bachelor</option>
+                <option value="masters">masters</option>
+                <option value="PHD">PHD</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
